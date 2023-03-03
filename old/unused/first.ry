@@ -1,0 +1,9 @@
+
+# call data and make it a variable
+
+dfBostonHousing <- read.csv("Data/BostonHousing.csv", header=TRUE)
+
+dfNew <- subset(dfBostonHousing, select=-c(ISHIGHVAL))
+
+head(dfBostonHousing[0])
+

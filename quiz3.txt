@@ -1,0 +1,11 @@
+1 - The variable being predicted for is Price
+
+2 - Age, KM, HP, cc, Doors, and Weight are the indepedent variables
+
+3 - The line of least squares is Price = -153.7(Age) - 109.1(KM) + 29.31(HP) - 3.378(cc) - 184.3(Doors) + 34.05(Weight)
+
+4 - Yes, the independent variable Doors would be removed
+
+5 - The real mean standard error, or average differnce between predicted data and actual data is $500 in Toyota Corolla Price
+
+6 - The mean average percentage error of 0.2 means the model is fairly good. The average actual value is only 20% different from what the line of least squares model would predict the price to be given the indepedent variables. The MAPE essentially measures the same thing as the RMSE, but in percentage form.
