@@ -1,5 +1,3 @@
-
-
 benchmarkErrorRate <- function(training, test){
   prop_train = as.data.frame(prop.table(table(training)))
   prop_train=prop_train[order(-prop_train$Freq),]

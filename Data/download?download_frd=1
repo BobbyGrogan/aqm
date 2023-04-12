@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login to Canvas at Babson</title>
+
+    <link rel="stylesheet" href="stylesSum2022.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Libre+Franklin&family=Pathway+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <style type="text/css" media="screen">
+      .quickPoll a:link {
+        color: #006644;
+        text-decoration: underline;
+      }
+
+      .quickPoll a:visited {
+        color: #006644;
+        text-decoration: underline;
+      }
+
+      .quickPoll a:hover {
+        color: #006644;
+        text-decoration: none;
+      }
+
+      .quickPoll a:active {
+        color: #7476b4;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div class="topGreen">BABSON</div>
+
+      <div class="centerPage">
+        <div class="logo">
+          <img src="images/canvasLogo_gray.png" alt="Canvas" class="respImg0" />
+        </div>
+
+        <div class="mainBox">
+          <br /><br/><br/>
+
+          <div class="community">
+            <img
+              src="images/studentStaffFaculty.png"
+              alt="Babson Community"
+              class="respImg1"
+            />
+          </div>
+          <br /><br /> 
+          <div>
+            <a href="https://babson.instructure.com/login/saml"
+              ><img
+                src="images/login_btn_06.png"
+                alt="login"
+                class="respImg_login"
+            /></a>
+          </div>
+          <br />
+
+          
+
+          <!-- **********  QUICK POLL (COMMENTED OUT JULY 2022)  ******************  -->
+
+          <p class="quickPoll">
+            <!--CORONAVIRUS RESPONSE INFORMATION <br />
+            Babson College will be altering regular operations <br />due to the
+            ongoing impact of the Coronavirus (COVID-19).<br />
+            **
+            <a
+              href="https://www.babson.edu/emergency-preparedness/coronavirus/"
+              target="_blank"
+              >LEARN MORE</a
+            >
+            ** -->
+                Want to know more about Babson College? <br/>Visit the <a href="https://www.babson.edu/" target="_blank"> Babson website</a> to learn more. 
+           
+          </p>
+        </div>
+
+        <div class="beeBox">
+          <img
+            src="images/profAcadPrograms.png"
+            alt="Professional Programs"
+            class="respImg2"
+          />
+          <br />
+          <div>
+            <a href="https://babson.instructure.com/login/canvas"
+              ><img
+                src="images/login_BEE.png"
+                alt="login"
+                class="respImg_login"
+            /></a>
+          </div>
+        </div>
+
+        <div class="guestBox">
+          <img
+            src="images/babsonGuests.png"
+            alt="Babson Guests"
+            class="respImg3"
+          />
+          <br />
+          <br />
+          <div>
+            <a href="https://babson.instructure.com/login/canvas"
+              ><img
+                src="images/login_Guests.png"
+                alt="login"
+                class="respImg_login"
+            /></a>
+          </div>
+        </div>
+
+        <div class="helpBox">
+          <span style="color: #006644; font-weight: bold">Need Help?</span>
+          Contact the IT Service Center:<br />
+          <a href="mailto:support@babson.edu">support@babson.edu</a>
+          &nbsp;&nbsp; | &nbsp;&nbsp;781.239.4357
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
